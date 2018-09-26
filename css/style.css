@@ -1,0 +1,40 @@
+.buttons{
+    float:left;
+    
+}
+#A, #R{
+    font-size: 28px;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    border-radius: 5px;
+    border: 1em;
+    cursor: pointer;
+}
+#A{
+    background-color: blue;
+    color:aliceblue;
+}
+#R{
+    margin-top: 60px;
+    background-color: red;
+    color: aliceblue;
+}
+.info{
+    color: #aaa;
+    position: fixed;
+    top: 10px;
+    left: 850px;
+    font-size: 30px;
+}
+#X,#U{
+    margin: 0;
+}
+#rover{
+    position: fixed;
+    height: 150px;
+    width: 200px;
+    top: 0px;
+    transition-property: left;
+    transition-duration: 1s;
+}
